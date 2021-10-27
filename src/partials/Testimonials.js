@@ -42,12 +42,15 @@ function Testimonials() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">
-              Trusted by over 20,000 companies all over the world
-            </h2>
+            <h2 className="h2 mb-4">Optimizing Humans Since 2004</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-              Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar
-              mattis blandit libero cursus mattis.
+              If you have any questions or trouble at all, please email{' '}
+              <a
+                className="text-blue-900"
+                href="mailto:support@bioptimizers.com"
+              >
+                support@bioptimizers.com.
+              </a>
             </p>
           </div>
 

@@ -128,7 +128,7 @@ function Newsletter() {
                     </a>
                   </div>
                   {/* Success message */}
-                  <p className="text-sm text-gray-400 mt-3">
+                  <p className="text-sm text-white mt-3">
                     We value your privacy and would never spam you. See our
                     privacy policy{' '}
                     <a
