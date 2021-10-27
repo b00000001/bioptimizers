@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Newsletter() {
   return (
-    <section>
+    <section id="newsletter">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* CTA box */}
@@ -120,12 +121,12 @@ function Newsletter() {
                       placeholder="Your email…"
                       aria-label="Your email…"
                     />
-                    <a
+                    <Link
                       className="mt-2 btn text-sm text-white bg-green-600 hover:bg-yellow-400 shadow"
-                      href="#0"
+                      to="./videos"
                     >
                       Double My Energy
-                    </a>
+                    </Link>
                   </div>
                   {/* Success message */}
                   <p className="text-sm text-white mt-3">
