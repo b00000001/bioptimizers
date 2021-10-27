@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
-function HeroHome() {
+function HeroHome({ handleClick }) {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
