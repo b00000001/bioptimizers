@@ -192,7 +192,6 @@ function Footer() {
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
             <p className="text-sm text-gray-600 mb-4">
               <strong>
                 Get free access to the awesome health course ($297 Value)
