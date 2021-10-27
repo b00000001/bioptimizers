@@ -34,14 +34,14 @@ function FeaturesBlocks() {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-green-700"
                     width="64"
                     height="64"
                     rx="32"
                   />
                   <g strokeWidth="2">
                     <path
-                      className="stroke-current text-blue-300"
+                      className="stroke-current text-yellow-400"
                       d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285"
                     />
                     <path
@@ -49,7 +49,7 @@ function FeaturesBlocks() {
                       d="M20.571 37.714h5.715L36.57 26.286h8"
                     />
                     <path
-                      className="stroke-current text-blue-300"
+                      className="stroke-current text-yellow-400"
                       strokeLinecap="square"
                       d="M41.143 34.286l3.428 3.428-3.428 3.429"
                     />
@@ -64,9 +64,9 @@ function FeaturesBlocks() {
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Initial Contact
               </h4>
-              <p className="text-gray-600 text-center">
+              {/* <p className="text-gray-600 text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
+              </p> */}
             </div>
 
             {/* 2nd item */}
@@ -78,7 +78,7 @@ function FeaturesBlocks() {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-green-700"
                     width="64"
                     height="64"
                     rx="32"
@@ -119,7 +119,7 @@ function FeaturesBlocks() {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-green-700"
                     width="64"
                     height="64"
                     rx="32"
@@ -153,7 +153,7 @@ function FeaturesBlocks() {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-green-700"
                     width="64"
                     height="64"
                     rx="32"
@@ -200,7 +200,7 @@ function FeaturesBlocks() {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-green-700"
                     width="64"
                     height="64"
                     rx="32"
@@ -234,7 +234,7 @@ function FeaturesBlocks() {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-green-700"
                     width="64"
                     height="64"
                     rx="32"
