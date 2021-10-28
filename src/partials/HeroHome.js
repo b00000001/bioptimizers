@@ -88,7 +88,7 @@ function HeroHome({ handleClick }) {
               <div className="flex flex-col justify-center">
                 <img
                   className="mx-auto"
-                  src={require('../images/hero-image.png').default}
+                  src={require('../images/hero-image.webp').default}
                   width="768"
                   height="432"
                   alt="Hero"

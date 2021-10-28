@@ -73,7 +73,7 @@ function Testimonials() {
                   </svg>
                   <img
                     className="relative rounded-full"
-                    src={require('../images/wadeBioInfo.png').default}
+                    src={require('../images/wadeBioInfo.webp').default}
                     width="96"
                     height="96"
                     alt="Testimonial 01"
