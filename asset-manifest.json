@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/bioptimizers/static/css/main.63559c56.chunk.css",
-    "main.js": "/bioptimizers/static/js/main.95200bc6.chunk.js",
-    "main.js.map": "/bioptimizers/static/js/main.95200bc6.chunk.js.map",
+    "main.js": "/bioptimizers/static/js/main.67681d4b.chunk.js",
+    "main.js.map": "/bioptimizers/static/js/main.67681d4b.chunk.js.map",
     "runtime-main.js": "/bioptimizers/static/js/runtime-main.68e4b54f.js",
     "runtime-main.js.map": "/bioptimizers/static/js/runtime-main.68e4b54f.js.map",
-    "static/js/2.2448a0ba.chunk.js": "/bioptimizers/static/js/2.2448a0ba.chunk.js",
-    "static/js/2.2448a0ba.chunk.js.map": "/bioptimizers/static/js/2.2448a0ba.chunk.js.map",
+    "static/js/2.ffef3cb3.chunk.js": "/bioptimizers/static/js/2.ffef3cb3.chunk.js",
+    "static/js/2.ffef3cb3.chunk.js.map": "/bioptimizers/static/js/2.ffef3cb3.chunk.js.map",
     "index.html": "/bioptimizers/index.html",
     "static/css/main.63559c56.chunk.css.map": "/bioptimizers/static/css/main.63559c56.chunk.css.map",
-    "static/js/2.2448a0ba.chunk.js.LICENSE.txt": "/bioptimizers/static/js/2.2448a0ba.chunk.js.LICENSE.txt",
-    "static/media/bioptimizerslogo.415a5299.svg": "/bioptimizers/static/media/bioptimizerslogo.415a5299.svg",
+    "static/js/2.ffef3cb3.chunk.js.LICENSE.txt": "/bioptimizers/static/js/2.ffef3cb3.chunk.js.LICENSE.txt",
+    "static/media/bioptimizerslogo.2871f6fa.svg": "/bioptimizers/static/media/bioptimizerslogo.2871f6fa.svg",
     "static/media/hero-image.webp": "/bioptimizers/static/media/hero-image.e5ac28f4.webp",
     "static/media/wadeBioInfo.webp": "/bioptimizers/static/media/wadeBioInfo.a648739f.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.68e4b54f.js",
-    "static/js/2.2448a0ba.chunk.js",
+    "static/js/2.ffef3cb3.chunk.js",
     "static/css/main.63559c56.chunk.css",
-    "static/js/main.95200bc6.chunk.js"
+    "static/js/main.67681d4b.chunk.js"
   ]
 }
