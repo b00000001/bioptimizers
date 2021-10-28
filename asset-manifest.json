@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bioptimizers/static/css/main.48858320.chunk.css",
-    "main.js": "/bioptimizers/static/js/main.3310d854.chunk.js",
-    "main.js.map": "/bioptimizers/static/js/main.3310d854.chunk.js.map",
+    "main.js": "/bioptimizers/static/js/main.16e31f55.chunk.js",
+    "main.js.map": "/bioptimizers/static/js/main.16e31f55.chunk.js.map",
     "runtime-main.js": "/bioptimizers/static/js/runtime-main.68e4b54f.js",
     "runtime-main.js.map": "/bioptimizers/static/js/runtime-main.68e4b54f.js.map",
     "static/js/2.2448a0ba.chunk.js": "/bioptimizers/static/js/2.2448a0ba.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.68e4b54f.js",
     "static/js/2.2448a0ba.chunk.js",
     "static/css/main.48858320.chunk.css",
-    "static/js/main.3310d854.chunk.js"
+    "static/js/main.16e31f55.chunk.js"
   ]
 }
