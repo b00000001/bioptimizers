@@ -40,12 +40,6 @@ function App() {
         <Route path="/videos">
           <Videos />
         </Route>
-        <Route path="/signup">
-          <SignUp />
-        </Route>
-        <Route path="/reset-password">
-          <ResetPassword />
-        </Route>
       </Switch>
     </>
   );
