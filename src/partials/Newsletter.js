@@ -2,7 +2,10 @@ import React, {useState} from 'react';
 import {  Link } from 'react-router-dom';
 
 function Newsletter(props) {
-  const [forminfo, changeformInfo] = useState();
+  const [forminfo, changeformInfo] = useState({
+    fullname: '',
+    email: ''
+  });
   const handleChange = (e) => {
     e.preventDefault();
     switch(e.target.id){
@@ -143,12 +146,7 @@ function Newsletter(props) {
                       aria-label="Your email"
                       onChange={handleChange}
                     />
-                    {(forminfo.fullname && forminfo.email) ? <button                      
-                      type='submit'
-                      className="mt-2 btn text-sm text-white bg-green-600 hover:bg-yellow-400 shadow"
-                    >
-                      <Link to='/videos'>Double My Energy!</Link>
-                    </button> : null}
+                    {(forminfo.email !== '') ? <button>Success</button> : null}
                   </div>
                   {/* Success message */}
                   <p className="text-sm text-white mt-3">
