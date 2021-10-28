@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bioptimizers/static/css/main.48858320.chunk.css",
-    "main.js": "/bioptimizers/static/js/main.da1ed00c.chunk.js",
-    "main.js.map": "/bioptimizers/static/js/main.da1ed00c.chunk.js.map",
+    "main.js": "/bioptimizers/static/js/main.add83e50.chunk.js",
+    "main.js.map": "/bioptimizers/static/js/main.add83e50.chunk.js.map",
     "runtime-main.js": "/bioptimizers/static/js/runtime-main.68e4b54f.js",
     "runtime-main.js.map": "/bioptimizers/static/js/runtime-main.68e4b54f.js.map",
     "static/js/2.2448a0ba.chunk.js": "/bioptimizers/static/js/2.2448a0ba.chunk.js",
@@ -11,13 +11,13 @@
     "static/css/main.48858320.chunk.css.map": "/bioptimizers/static/css/main.48858320.chunk.css.map",
     "static/js/2.2448a0ba.chunk.js.LICENSE.txt": "/bioptimizers/static/js/2.2448a0ba.chunk.js.LICENSE.txt",
     "static/media/bioptimizerslogo.415a5299.svg": "/bioptimizers/static/media/bioptimizerslogo.415a5299.svg",
-    "static/media/hero-image.png": "/bioptimizers/static/media/hero-image.f60c791f.png",
-    "static/media/wadeBioInfo.png": "/bioptimizers/static/media/wadeBioInfo.29387c16.png"
+    "static/media/hero-image.webp": "/bioptimizers/static/media/hero-image.e5ac28f4.webp",
+    "static/media/wadeBioInfo.webp": "/bioptimizers/static/media/wadeBioInfo.a648739f.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.68e4b54f.js",
     "static/js/2.2448a0ba.chunk.js",
     "static/css/main.48858320.chunk.css",
-    "static/js/main.da1ed00c.chunk.js"
+    "static/js/main.add83e50.chunk.js"
   ]
 }
