@@ -2,7 +2,7 @@
 
 # Description
 This is a landing page redesignto modernize the page https://bioptimizers.com/awesome-health-course/?c=1
-
+![Screencap](/src/images/screencap.webp)
 # Table of Contents 
 1. [Installation](#Installation)
 2. [Usage](#Usage)
