@@ -31,10 +31,10 @@ function App() {
   return (
     <>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/videos">
+        <Route exact path="/videos">
           <Videos />
         </Route>
       </Switch>
