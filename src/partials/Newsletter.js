@@ -1,23 +1,29 @@
-import React, {useState} from 'react';
-import {  Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Newsletter(props) {
-  const [forminfo, changeformInfo] = useState();
+  const [forminfo, changeformInfo] = useState({
+    fullname: '',
+    email: '',
+    filled: false
+  });
   const handleChange = (e) => {
     e.preventDefault();
-    switch(e.target.id){
+    switch (e.target.id) {
       case 'fullname':
-      changeformInfo({fullname: e.target.value});
-      break;
+        changeformInfo({ fullname: e.target.value });
+        break;
       case 'email':
-        changeformInfo({email: e.target.value});
-      break;
-      default: 
-      console.log('Err');
+        changeformInfo({ email: e.target.value });
+        break;
+      default:
+        console.log('Err');
     }
-    console.log(forminfo);
-  }
-  
+    if (forminfo.fullname !== '' && forminfo.email !== '') {
+      changeformInfo({ filled: true });
+    }
+  };
+
   return (
     <section id="newsletter">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -123,32 +129,32 @@ function Newsletter(props) {
                 </p>
 
                 {/* Form */}
-                <form
-                  className="w-full lg:w-auto"
-                >
+                <form className="w-full lg:w-auto">
                   <div className="sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input
                       type="text"
                       className="w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500"
                       placeholder="Full Name"
-                      id='fullname'
+                      id="fullname"
                       aria-label="Full Name"
                       onChange={handleChange}
                     />
                     <input
                       type="email"
-                      id='email'
+                      id="email"
                       className="mt-2 w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500"
                       placeholder="Your email"
                       aria-label="Your email"
                       onChange={handleChange}
                     />
-                    {(forminfo.fullname && forminfo.email) ? <button                      
-                      type='submit'
-                      className="mt-2 btn text-sm text-white bg-green-600 hover:bg-yellow-400 shadow"
-                    >
-                      <Link to='/videos'>Double My Energy!</Link>
-                    </button> : null}
+                    {forminfo.filled ? (
+                      <button
+                        type="submit"
+                        className="mt-2 btn text-sm text-white bg-green-600 hover:bg-yellow-400 shadow"
+                      >
+                        <Link to="/videos">Double My Energy!</Link>
+                      </button>
+                    ) : null}
                   </div>
                   {/* Success message */}
                   <p className="text-sm text-white mt-3">
