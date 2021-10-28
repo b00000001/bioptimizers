@@ -1,7 +1,8 @@
 {
   "name": "biOptimizers",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
+  "homepage": "https://b00000001.github.io/bioptimizers",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@tailwindcss/forms": "^0.3.2",
