@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 function Newsletter(props) {
+  const history = useHistory();
   const [forminfo, changeformInfo] = useState({
     fullname: '',
     email: '',
     filled: false
   });
+  const handleClick = () => {
+    history.push('/videos');
+  };
   const handleChange = (e) => {
     e.preventDefault();
     switch (e.target.id) {
@@ -129,7 +133,7 @@ function Newsletter(props) {
                 </p>
 
                 {/* Form */}
-                <form className="w-full lg:w-auto">
+                <form onSubmit={handleClick} className="w-full lg:w-auto">
                   <div className="sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input
                       type="text"
@@ -138,6 +142,7 @@ function Newsletter(props) {
                       id="fullname"
                       aria-label="Full Name"
                       onChange={handleChange}
+                      required
                     />
                     <input
                       type="email"
@@ -146,15 +151,16 @@ function Newsletter(props) {
                       placeholder="Your email"
                       aria-label="Your email"
                       onChange={handleChange}
+                      required
                     />
-                    {forminfo.filled ? (
+                    {
                       <button
                         type="submit"
                         className="mt-2 btn text-sm text-white bg-green-600 hover:bg-yellow-400 shadow"
                       >
-                        <Link to="/videos">Double My Energy!</Link>
+                        Double My Energy
                       </button>
-                    ) : null}
+                    }
                   </div>
                   {/* Success message */}
                   <p className="text-sm text-white mt-3">
