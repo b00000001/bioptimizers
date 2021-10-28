@@ -7,10 +7,7 @@ import AOS from 'aos';
 import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
 import Videos from './pages/Videos';
-import ResetPassword from './pages/ResetPassword';
 
 function App() {
   const location = useLocation();
@@ -34,17 +31,11 @@ function App() {
   return (
     <>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/" component={Home}>
           <Home />
         </Route>
-        <Route path="/videos">
+        <Route path="/videos" component={Videos}>
           <Videos />
-        </Route>
-        <Route path="/signup">
-          <SignUp />
-        </Route>
-        <Route path="/reset-password">
-          <ResetPassword />
         </Route>
       </Switch>
     </>
