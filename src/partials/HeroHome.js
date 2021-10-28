@@ -126,6 +126,7 @@ function HeroHome({ handleClick }) {
             >
               <div className="relative pb-9/16">
                 <iframe
+                  loading="lazy"
                   className="absolute w-full h-full"
                   src="https://www.youtube.com/embed/E8e3qj7rQv4"
                   title="Video"
