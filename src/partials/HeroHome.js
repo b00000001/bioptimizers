@@ -101,7 +101,7 @@ function HeroHome({ handleClick }) {
                   height="432"
                   alt="Hero"
                 />
-                <svg
+                {/* <svg
                   className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
                   width="768"
                   height="432"
@@ -167,6 +167,7 @@ function HeroHome({ handleClick }) {
                     </g>
                   </g>
                 </svg>
+              </div> */}
               </div>
               <button
                 className="bg-green-700 absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg"
