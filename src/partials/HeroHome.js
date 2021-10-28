@@ -104,7 +104,7 @@ function HeroHome({ handleClick }) {
                 aria-controls="modal"
               >
                 <svg
-                  className="w-6 h-6 fill-current text-white group-hover:text-blue-600 flex-shrink-0"
+                  className="w-6 h-6 fill-current text-white group-hover:text-yellow-300 flex-shrink-0"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >

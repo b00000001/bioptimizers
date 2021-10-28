@@ -147,9 +147,9 @@ const Videos = () => {
                 {video.title}
               </a>
               <a
-                href="https://www.youtube.com/user/sam14319"
+                href="https://www.youtube.com/c/Bioptimizers"
                 target="_new"
-                class="badge bg-yellow-500 text-blue-100 rounded px-1 text-xs font-bold cursor-pointer"
+                class="badge bg-yellow-400 text-white rounded px-1 text-xs font-bold cursor-pointer"
               >
                 @biOptimizers
               </a>
