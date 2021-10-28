@@ -68,7 +68,7 @@ function HeroHome({ handleClick }) {
               >
                 <div>
                   <a
-                    className="btn text-white bg-green-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                    className="btn text-white bg-green-700 hover:bg-yellow-400 w-full sm:w-auto sm:ml-4"
                     href="#newsletter"
                   >
                     Double My Energy!
